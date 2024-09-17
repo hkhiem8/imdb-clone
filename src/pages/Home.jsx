@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import axios from 'axios';
 import MovieCard from '../components/MovieCard.jsx';
+import { Spinner } from '@chakra-ui/spinner'
 
 const Home = () => {
   const [searchTerm, setSearchTerm] = useState('');
